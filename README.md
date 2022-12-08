@@ -6,6 +6,8 @@ This is a project design to offer free online polls service where a user can cre
 ### Frontend
 * [Click to go frontend repository](https://github.com/ferdinandmukodo/onlinepollings)
 
+* [Project Live Link](https://quickpolls.netlify.app/)
+
 
 <br/>
 
