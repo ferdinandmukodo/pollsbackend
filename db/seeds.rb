@@ -26,33 +26,23 @@ Question.create([
 ])
 
 AnswerChoice.create([
-  { question_id: 1, text: 'Thor' },
-  { question_id: 1, text: 'Legally Blonde' },
-  { question_id: 1, text: 'The Godfather' },
-  { question_id: 2, text: '0-3' },
-  { question_id: 2, text: '4-7' },
-  { question_id: 2, text: '8+' },
-  { question_id: 3, text: 'Sports/Fitness' },
-  { question_id: 3, text: 'Cooking, Eating, Drinking' },
-  { question_id: 3, text: 'Crafting' },
-  { question_id: 4, text: 'Sunburn' },
-  { question_id: 4, text: 'Frostbite' },
-  { question_id: 5, text: 'Paris' },
-  { question_id: 5, text: 'Hawaii' },
-  { question_id: 5, text: 'Dubai' },
-  { question_id: 5, text: 'Swiss Alps' },
-  { question_id: 6, text: 'Ocean' },
-  { question_id: 6, text: 'Mountains' },
-  { question_id: 5, text: 'Desert' }
+  { question_id: 1, text: 'morning' },
+  { question_id: 1, text: 'evening' },
+  { question_id: 2, text: 'canada' },
+  { question_id: 2, text: 'malta' },
+  { question_id: 3, text: 'cat' },
+  { question_id: 3, text: 'dog' },
+  { question_id: 4, text: '4 years' },
+  { question_id: 4, text: 'now' }
 ])
 
 Response.create([
-  { respondent_id: 1, answer_choice_id: 5 },
-  { respondent_id: 1, answer_choice_id: 10 },
-  { respondent_id: 2, answer_choice_id: 13 },
-  { respondent_id: 2, answer_choice_id: 16 },
-  { respondent_id: 3, answer_choice_id: 2 },
-  { respondent_id: 3, answer_choice_id: 14 },
-  { respondent_id: 4, answer_choice_id: 1 },
-  { respondent_id: 4, answer_choice_id: 7 }
+  { respondent_id: 1, answer_choice_id: 1 },
+  { respondent_id: 1, answer_choice_id: 2 },
+  { respondent_id: 2, answer_choice_id: 3 },
+  { respondent_id: 2, answer_choice_id: 4 },
+  { respondent_id: 3, answer_choice_id: 5 },
+  { respondent_id: 3, answer_choice_id: 6 },
+  { respondent_id: 4, answer_choice_id: 7 },
+  { respondent_id: 4, answer_choice_id: 8 }
 ])
